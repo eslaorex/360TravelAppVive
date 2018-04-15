@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ShowRoomScene.unity
     guid: 55edd834a103cfe46bc31826bffe347a
+  - enabled: 1
+    path: Assets/Scenes/SecondScene.unity
+    guid: 46d93f66f3e9e034c8aa283bd83b6f4f
