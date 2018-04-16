@@ -3824,7 +3824,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 180, y: 60.000004}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.375, y: 0.26953125}
+  savedTextUV0: {x: 0.09375, y: 0}
   savedFill: 0
 --- !u!114 &445278225
 MonoBehaviour:
@@ -5177,7 +5177,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 406.25, y: 100}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.34765625, y: 0.1796875}
+  savedTextUV0: {x: 0.109375, y: 0.1484375}
   savedFill: 0
 --- !u!114 &696972862
 MonoBehaviour:
@@ -6543,7 +6543,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 406.25, y: 100}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.01953125, y: 0}
+  savedTextUV0: {x: 0, y: 0.24609375}
   savedFill: 0
 --- !u!114 &848864061
 MonoBehaviour:
@@ -8359,7 +8359,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 406.25, y: 100}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.04296875, y: 0.23828125}
+  savedTextUV0: {x: 0.16796875, y: 0.26171875}
   savedFill: 0
 --- !u!114 &1164914909
 MonoBehaviour:
@@ -10781,7 +10781,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 406.25, y: 100}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.1171875, y: 0.25390625}
+  savedTextUV0: {x: 0.32421875, y: 0.16796875}
   savedFill: 0
 --- !u!114 &1484930593
 MonoBehaviour:
@@ -11308,7 +11308,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1545556323}
   m_LocalRotation: {x: -0.25665453, y: -0.12540914, z: 0.032815054, w: 0.95777047}
-  m_LocalPosition: {x: -0.065, y: -0.174, z: 0.577}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 395783137}
@@ -11513,6 +11513,7 @@ GameObject:
   - component: {fileID: 1582490483}
   - component: {fileID: 1582490480}
   - component: {fileID: 1582490481}
+  - component: {fileID: 1582490482}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -11574,6 +11575,22 @@ MonoBehaviour:
   allowedUseControllers: 2
   usingState: 0
   canvaS: {fileID: 1582490479}
+--- !u!114 &1582490482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1582490479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fd56e1794cef714cade43cce1d94d4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_Control_UnityEvents+Control3DEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1582490483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12003,7 +12020,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 406.25, y: 100}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.34765625, y: 0.1796875}
+  savedTextUV0: {x: 0.109375, y: 0.1484375}
   savedFill: 0
 --- !u!114 &1649702290
 MonoBehaviour:
@@ -13709,7 +13726,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 406.25, y: 100}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.19140625, y: 0.25390625}
+  savedTextUV0: {x: 0.18359375, y: 0.35546875}
   savedFill: 0
 --- !u!114 &1777100392
 MonoBehaviour:
@@ -13841,7 +13858,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 406.25, y: 100}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.0859375, y: 0}
+  savedTextUV0: {x: 0.3671875, y: 0.2578125}
   savedFill: 0
 --- !u!114 &1810747273
 MonoBehaviour:
@@ -15076,7 +15093,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 406.25, y: 100}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.4140625, y: 0.15234375}
+  savedTextUV0: {x: 0.3671875, y: 0.34375}
   savedFill: 0
 --- !u!114 &1960204061
 MonoBehaviour:
