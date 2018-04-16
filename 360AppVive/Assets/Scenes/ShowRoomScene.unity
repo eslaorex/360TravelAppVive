@@ -9290,6 +9290,7 @@ GameObject:
   - component: {fileID: 1294829591}
   - component: {fileID: 1294829592}
   - component: {fileID: 1294829587}
+  - component: {fileID: 1294829590}
   m_Layer: 5
   m_Name: Item
   m_TagString: Untagged
@@ -9368,6 +9369,27 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294829585}
+--- !u!114 &1294829590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1294829585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8b11e74b5266ac4ebd7f77e2fac058f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TravelRoom: {fileID: 0}
+  TravelRoomEnviroment: {fileID: 0}
+  TravelRoomControls: []
+  Sphere360: {fileID: 0}
+  Textures:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  btnExit: {fileID: 0}
+  SphereControls: []
 --- !u!114 &1294829591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9406,7 +9428,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1360360288}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1294829590}
+        m_MethodName: goToSkyBox
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1294829592
